@@ -1,0 +1,40 @@
+Display: laptop
+Languages: javascript, html, css
+browser: Chrome 
+Third Party Technology:
+--TheMealDB
+--RecipePuppy
+
+Data: Json
+--
+(below is example Json from Gary:)
+{
+    "id": 1,
+    "name": "name",
+    "location": {
+        "state": "state",
+        "city" : "city",
+        "lat" : 1111,
+        "long" : 999,
+    } 
+    "type" : "type",
+    "features" : []
+    "cost" : "cost"
+}
+
+
+User Stories:
+Users:
+  People who will be cooking right away
+  People who are being cooked for, or who are meal planning
+  People who are just interested in food inspiration
+  Site Admin/ Developer
+
+  1. as a home cook, I want to get an idea of what to make today
+  from a large collection of recipes new to me 
+
+  2. I would like to choose something to have for a meal today or on another day, or just to gather ideas for inspiration, from a large collection of meal ideas
+
+  3. As a cook and also as a planner, I would like to be able to enter some parameters that define my diet such as vegetarian, vegan etc.
+
+  4. I would like to see pictures of the recipe as well as reviews and tips from other Users
